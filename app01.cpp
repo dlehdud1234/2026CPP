@@ -75,4 +75,3 @@ int main()
     cout << "Radius: " << circle4.getRadius() << endl;
     return 0;
 }
-test
