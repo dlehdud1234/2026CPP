@@ -16,7 +16,7 @@ int main(){
     int kid = 5000, adult = 10000, senior = 7000;
     
     for (int i = 0; i < humans; i++){
-        age = *(ages + i);
+        age = ages[i]; //배열로 대체 가능
         if(age >=65){
             totalPrice = totalPrice + senior;
         }
