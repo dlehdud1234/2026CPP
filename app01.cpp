@@ -1,6 +1,6 @@
 #include <iostream>
 int main(){
-    int age;
+    int age, totalPrice = 0;
     //int* a = &age; //포인터는 메모리 번지 주소만 받을 수 있음
     
     int humans = 0;
@@ -13,9 +13,19 @@ int main(){
         cin >> age;
         *(ages + i) = age;
     }
-
+    int kid = 5000, adult = 10000, senior = 7000;
+    
     for (int i = 0; i < humans; i++){
-        cout << *(ages + i) << '\n';
+        age = *(ages + i);
+        if(age >=65){
+            totalPrice = totalPrice + senior;
+        }
+        else if(age >= 19){
+            totalPrice = totalPrice + adult;
+        }
+        else{
+            totalPrice = totalPrice + kid;
+        }
     }
     //cout << ages << '\n';
     //cout << humans << '\n';
