@@ -3,3 +3,4 @@ static 변수, 메모리
 스코프 범위 지정 연산자 / 포인터, 2중 포인터 
 heap memory 동적할당 new <> delete  
 nullptr
+--------------
