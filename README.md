@@ -4,3 +4,5 @@ static 변수, 메모리
 heap memory 동적할당 new <> delete  
 nullptr
 --------------
+private, protected
+invocation, delegation 차이
