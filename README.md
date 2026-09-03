@@ -6,3 +6,5 @@ nullptr
 --------------
 private, protected
 invocation, delegation 차이
+----------------
+연관, 집합, 합성 관계
